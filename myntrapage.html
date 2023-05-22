@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/afcc1ebd93.js" crossorigin="anonymous"></script>
+         <title>mytra page</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        }
+        
+        #newscreen {
+        width:100%;
+        display:flex;
+        border:5px solid black;
+        justify-content :space-around;
+    }
+    #left {
+        width:15%;
+        border: 2px solid #E9E9ED;
+
+    }
+    #left>div{
+        width: 85%;
+        margin: auto;
+    }
+    #left>div>h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #left>div>input,label{
+        margin-bottom: 5px;
+    }
+    #right{
+        display: flex;
+        flex-wrap: wrap;
+        width:85%;
+        border: 2px solid #E9E9ED;
+        justify-content: space-around;
+       
+    }
+    #right>div{
+        width: 18%;
+      /*  border: 1px solid black;*/
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 20px;     
+    }
+    #right>div:hover {
+            border: 1px solid black;
+
+        }
+    #right>div>img{
+        width: 100%;
+        height: 80%;
+    }
+    #right>div>h4,p{
+        margin-left: 15px;
+    }
+
+    
+        #screen{
+            width:100%;
+        }
+        #navbar{
+            width:100%;
+            height:60px;
+            display:flex;
+            justify-content: space-around;
+        }
+        #icon{
+            width:10%;
+            height:100%;
+        }
+        #mytraicon{
+           margin-top: 10px;
+           margin-left: 25%;
+            width:50%;
+            height:60%;
+        }
+        #navi{
+            width:32%;
+            display:flex;
+            justify-content: space-between;
+        }.navisection{
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        #search{
+            width:32%;
+        
+        }
+        #searchbox{
+            
+            background-color: rgb(231, 229, 229);
+            margin-top: 13px;
+            height:35px;
+        }
+        #searchicon{
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+        #searchinput{
+            background-color: rgb(240, 235, 235);
+            margin-top: 10px;
+            margin-left: 15px;
+            border:none;
+            outline :none;
+            color: gray;
+        }
+        #profile{
+            width:15%;
+            
+            display: flex;
+            justify-content: space-between;
+        }
+        #body{
+            width:100%;
+            height:250px;
+            
+        }
+        .text-centre{
+            text-align: center;
+            padding: 10px;
+        }
+        .profileicon{
+            margin-bottom: 0px;
+        }
+        .margin-top-zero{
+             margin-top: 0;
+             margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+   <div id="screen">
+    <div id="navbar">
+          <div id="icon">
+            <img id="mytraicon"src="./myntra icon.jpg"/>
+          </div>
+          <div id="navi">
+            <span class="navisection" >men</span>
+            <span  class="navisection" >women</span>
+            <span  class="navisection" >kids</span>
+            <span  class="navisection" >home</span>
+            <span class="navisection" >beauty</span>
+            <span  class="navisection" >studio</span>
+          </div>
+          <div id="search">
+              <div id="searchbox">
+                <i id="searchicon" class="fa-solid fa-magnifying-glass fa-xl"></i>
+                <input id="searchinput" placeholder="search product"/>
+              </div>
+
+
+          </div>
+          <div id="profile">
+            <div class="text-center">
+                <i  class="fa-regular fa-user fa-lg profileicon"></i> 
+                <p class="margin-top-zero">profile</p>
+            </div>
+            <div class="text-center" >
+                <i class="fa-solid fa-heart fa-lg profileicon"></i>
+                <p class="margin-top-zero">wishlist</p>
+            </div>
+            <div class="text-center">
+                <i class="fa-solid fa-cart-shopping fa-lg profileicon"></i>
+                <p class="margin-top-zero">bag</p>
+            </div>
+          </div>
+    </div>
+     <div id="body">
+        <div id="newscreen">
+            <div id="left">
+                <div>
+                   <h4> CATEGORIES</h4>
+                   <input type="checkbox"
+                    <label>T-shirt</label></br>
+                    <input type="checkbox"
+                    <label> long T-shirt</label>
+        
+                </div>
+                <div>
+                    <h4>BRAND</h4>
+                    <input type="checkbox"
+                    <label>roadster</label></br>
+                    <input type="checkbox"
+                    <label> wrogn</label></br>
+                    <input type="checkbox"
+                    <label>mongoman</label></br>
+                    <input type="checkbox"
+                    <label> allen solly</label></br>
+                    <input type="checkbox"
+                    <label>sojanya</label></br>
+                    <input type="checkbox"
+                    <label> roadster</label>
+                </div>
+                <div>
+                    <h4>PRICE</h4>
+                    <input type="checkbox"
+                    <label>400-500</label></br>
+                    <input type="checkbox"
+                    <label> 500-600</label></br>
+                    <input type="checkbox"
+                    <label>600-700</label></br>
+                    <input type="checkbox"
+                    <label> 700-800</label></br>
+                    <input type="checkbox"
+                    <label>800-900</label></br>
+                    <input type="checkbox"
+                    <label> 900-1000</label></br>
+                    <input type="checkbox"
+                    <label>1000-1100</label></br>
+                    <input type="checkbox"
+                    <label> 1100-1200</label>
+         </div>
+                <div>
+                    <h4>COLOR</h4>
+                    <input type="checkbox"
+                    <label>white</label></br>
+                    <input type="checkbox"
+                    <label> black</label><br>
+                    <input type="checkbox"
+                    <label>grey</label></br>
+                    <input type="checkbox"
+                    <label> blue</label></br>
+                    <input type="checkbox"
+                    <label>orange</label></br>
+                    <input type="checkbox"
+                    <label> red</label></br>
+                    <input type="checkbox"
+                    <label>purpal</label></br>
+                    <input type="checkbox"
+                    <label> yellow</label>
+         </div>
+                <div>
+                    <h4>DISCOUNT</h4>
+                    <input type="checkbox"
+                    <label>10%</label></br>
+                    <input type="checkbox"
+                    <label> 15%</label></br>
+                    <input type="checkbox"
+                    <label>20%</label></br>
+                    <input type="checkbox"
+                    <label> 25%</label></br>
+                    <input type="checkbox"
+                    <label>30%</label></br>
+                    <input type="checkbox"
+                    <label> 35%</label></br>
+                    <input type="checkbox"
+                    <label>40%</label></br>
+                    <input type="checkbox"
+                    <label> 45%</label>
+                </div>
+            </div>
+            <div id="right">
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/11364032/2020/3/2/25772733-83a6-42ce-9b2d-a74fb41dd8111583123971549-WROGN-Men-Tshirts-8331583123970114-1.jpg">
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.5500</h4>
+                    
+                    
+                    
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2338885/2018/3/6/11520314819142-WROGN-Men-Brown-Printed-Round-Neck-T-shirt-6501520314818937-1.jpg"/>
+                    <h4>wrogn</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.2500</h4>
+                    
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/9200297/2019/4/8/15862d4d-56f9-4004-b11b-b40a2816ec401554719793453-WROGN-Men-White-Printed-Round-Neck-T-shirt-5671554719792138-1.jpg"/>
+                    <h4>sojanya</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.1600</h4>
+                    
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2478312/2018/2/23/11519383496318-WROGN-Men-Black-Printed-V-Neck-T-shirt-4841519383496093-1.jpg"/>
+                    <h4>deyann</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.1700</h4>
+                    
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    
+                </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+                <div><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6833047/2018/7/27/0bd3dab0-b644-4a0c-a24e-f5afc6a2da4b1532673157232-WROGN-Men-Tshirts-6451532673155490-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>t-shirt</p>
+                    <h4>Rs.700</h4>
+                    </div>
+            </div>
+           </div> 
+           
+        
+     </div>
+   </div>
+   
+</body>
+</html>
